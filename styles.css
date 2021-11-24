@@ -57,6 +57,10 @@ body {
     text-decoration: none;
 }
 
+.header-link:hover {
+    color: #3882F6;
+}
+
 /* Hero */
 
 .hero {
@@ -103,11 +107,18 @@ body {
     padding: 6px 24px;
     font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
+}
+.signup-button:hover {
+    background-color: #2759AA;
+    border: 1px solid #2759AA;
 }
 
 .hero img {
     width: 350px;
     height: 233px;
+    border-radius: 28px;
+    box-shadow: 10px 10px 5px #111;
 }
 
 /* Info */
